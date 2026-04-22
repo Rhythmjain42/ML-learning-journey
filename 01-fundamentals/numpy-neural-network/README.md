@@ -13,6 +13,8 @@ View, Not Copy: It does not create a new array in memory but provides a differen
 7.	then after a single forward pass we compute loss, loss is calculated using BCE or MSE loss functions
 8.	once loss is computed then we compute gradients for change in weights and bias [y_pred-y_true]
 9.	we update weights by multiplying learning rate with computed gradients
+
+
 Derivative of Cross-Entropy Loss:
 Loss = -[y*log(p) + (1-y)*log(1-p)]
 where p = sigmoid(z) = 1/(1 + e^(-z))
