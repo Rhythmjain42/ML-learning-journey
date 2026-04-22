@@ -46,6 +46,8 @@ Step 3: Chain rule
       = -(y - σ)
       = σ - y
       = y_pred - y_true
+
+
 For MSE + Sigmoid
 Loss L = (y - σ(z))²
 Step 1: ∂L/∂σ
